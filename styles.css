@@ -117,13 +117,11 @@ nav ul li a:hover {
 
 #hero {
     display: grid;
-    /* grid-template-columns: 2fr 1fr; */
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 
 .header-texts {
     display: grid;
-    /* grid-template-columns: 1fr 1fr; */
     margin-block: 1rem 2rem;
 }
 
@@ -178,7 +176,6 @@ nav ul li a:hover {
 /* ***** ***** Gadget Headlines ***** ***** */
 .gadget-headlines {
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr; */
     gap: 1rem;
     height: 6rem;
     width: 100%;
@@ -262,6 +259,7 @@ body.menu-show::before {
     #hero {
         grid-template-columns: 2.1fr 0.9fr;
         gap: 1rem;
+        padding-top: 3rem;
     }
     
     .header-texts {
@@ -282,12 +280,9 @@ body.menu-show::before {
         margin-bottom: 0.5rem;
     }
 
-
     nav ul {
         display: flex;
     }
-
-    
 
     .icon {
         display: none;
